@@ -53,7 +53,21 @@ int main()
                 visited[i]=0;
             }
             DFS(0);
-            
+            // all this to prevent obmitted unvisited vertice(s)
+            //check the youtube video
+            // Depth-first Search (DFS) on Graphs Part 1 - Algorithm
+            //https://youtu.be/fI6X6IBkzcw
+            //Depth-first Search (DFS) on Graphs Part 2 - Implementation
+            //https://youtu.be/uT1p5Eiw9CE
+            // you have to restart the DFS if in the Set G still have uvisited vertice(s)
+            // or some time  the vertices is few seperated island
+            for(i=0;i<n;i++)
+            {
+                if (visited[i]==0)
+                  DFS(i);
+                
+            }
+            //// end of the above prevent obmitted unvisited vertice(s)
 
              //i have to reset the whole G back to NULL every time i finish a cycle , or else its gonna follow up
             for(i=0;i<n;i++)
@@ -109,6 +123,7 @@ int main()
         p=p->next;
     }
 }
+
  
  
 int insert(int vi,int vj)
