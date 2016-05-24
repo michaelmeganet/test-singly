@@ -29,7 +29,7 @@ this is the vi and vj : 0 2
 
 1
 number of nodes visited :  4
-YES
+NO
 
 this is n : 4
 this is the no of edges : 5
@@ -47,7 +47,7 @@ this is the vi and vj : 3 1
 
 1
 number of nodes visited :  4
-NO
+YES
 
 this is n : 7
 this is the no of edges : 6
@@ -98,5 +98,5 @@ this is the vi and vj : 2 3
 
 5
 number of nodes visited :  7
-YES
+NO
 

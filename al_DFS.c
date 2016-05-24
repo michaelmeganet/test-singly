@@ -114,7 +114,7 @@ for each vertex u in V[G]
                 }
                 
             }
-        if( j < no_of_edges) {
+        if( j == no_of_edges) {
         	printf("NO\n"); 
         	printf("\n" ); 
         }else{

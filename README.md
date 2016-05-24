@@ -84,4 +84,5 @@ using this algorithm DFS for final codes
 
 compile it under linux
 
+using Number of nodes must be = Number of Edges to detetmine singly
 
