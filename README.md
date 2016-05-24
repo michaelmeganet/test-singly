@@ -77,3 +77,11 @@ and in page 4
 
 the above all can be found on http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.43.6948&rep=rep1&type=pdf
 
+
+final  --> al_DFS.c
+
+using this algorithm DFS for final codes
+
+compile it under linux
+
+
